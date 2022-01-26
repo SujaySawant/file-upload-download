@@ -6,7 +6,10 @@ This repo provides details on how to upload and download files from BrowserStack
 ## Setup
 
 - Clone the repo
-- Install dependencies `mvn compile`
+- Install dependencies 
+  ```
+  mvn compile
+  ```
 - Update the environment variables with your [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings)
 
 ## File Upload
