@@ -1,0 +1,6 @@
+com/test/upload/android/SingleTest.class
+com/test/upload/android/ParallelTest.class
+com/test/download/desktop/SingleTest.class
+com/test/download/desktop/ParallelTest.class
+com/test/upload/desktop/SingleTest.class
+com/test/upload/desktop/ParallelTest.class
