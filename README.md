@@ -21,11 +21,11 @@ This repo provides details on how to upload and download files from BrowserStack
   ```
 
 ### Mobile browsers
-- Run a single tests to upload a file on a mobile browser.
+- Run a single tests to upload a file on an android mobile browser.
   ```
   mvn -P file-upload-android-single test
   ```
-- Run parallel tests to upload a file on mobile browsers.
+- Run parallel tests to upload a file on android mobile browsers.
   ```
   mvn -P file-upload-android-parallel test
   ```
