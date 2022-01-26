@@ -30,8 +30,8 @@ public class SingleTest {
     @BeforeMethod(alwaysRun = true)
     public void setup(Method m) throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("project", "BrowserStack Java TestNG");
-        caps.setCapability("build", "Upload-Download");
+        caps.setCapability("project", "File Upload and Download");
+        caps.setCapability("build", "Demo");
         caps.setCapability("name", m.getName() + " - Chrome latest");
 
         caps.setCapability("os", "Windows");

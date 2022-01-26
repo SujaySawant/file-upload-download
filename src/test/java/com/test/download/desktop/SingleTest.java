@@ -31,8 +31,8 @@ public class SingleTest {
     public void setup(Method m) throws IOException {
         Files.deleteIfExists(Paths.get("target", "List of devices.csv"));
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("project", "BrowserStack Java TestNG");
-        caps.setCapability("build", "Upload-Download");
+        caps.setCapability("project", "File Upload and Download");
+        caps.setCapability("build", "Demo");
         caps.setCapability("name", m.getName() + " - Chrome latest");
 
         caps.setCapability("os", "Windows");
@@ -61,7 +61,8 @@ public class SingleTest {
         driver.findElement(By.className("icon-csv")).click();
         wait.until(d -> ((JavascriptExecutor) d).executeScript(fileExistsScript));
         System.out.println("File exists: " + jse.executeScript(fileExistsScript));
-        System.out.println("File properties: " + jse.executeScript(filePropertiesScript));
+        FileProperties properties = new FileProperties(jse.executeScript(filePropertiesScript));
+        System.out.println(properties);
         String base64EncodedFile = (String) jse.executeScript(fileContentScript);
         byte[] data = Base64.getDecoder().decode(base64EncodedFile);
         try (OutputStream stream = new FileOutputStream("target/List of devices.csv")) {

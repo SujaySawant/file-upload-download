@@ -1,7 +1,7 @@
 {
   "commonCapabilities": {
-    "project": "BrowserStack Java TestNG",
-    "build": "Upload-Download",
+    "project": "File Upload and Download",
+    "build": "Demo",
     "browserstack.debug": true,
     "browserstack.networkLogs": true
   },

@@ -82,7 +82,8 @@ public class ParallelTest {
         driver.findElement(By.className("icon-csv")).click();
         wait.until(d -> ((JavascriptExecutor) d).executeScript(fileExistsScript));
         System.out.println("File exists: " + jse.executeScript(fileExistsScript));
-        System.out.println("File properties: " + jse.executeScript(filePropertiesScript));
+        FileProperties properties = new FileProperties(jse.executeScript(filePropertiesScript));
+        System.out.println(properties);
         String base64EncodedFile = (String) jse.executeScript(fileContentScript);
         byte[] data = Base64.getDecoder().decode(base64EncodedFile);
         try (OutputStream stream = new FileOutputStream("target/List of devices.csv")) {

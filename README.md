@@ -1,4 +1,5 @@
 # File Upload and Download <a href="https://www.browserstack.com/"><img src="https://www.vectorlogo.zone/logos/browserstack/browserstack-icon.svg" alt="BrowserStack" height="30"/></a> <a href="https://java.com"><img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java" height="30" /></a> <a href="https://www.selenium.dev/"><img src="https://seeklogo.com/images/S/selenium-logo-DB9103D7CF-seeklogo.com.png" alt="Selenium" height="30" /></a>
+[![BrowserStack Status](https://automate.browserstack.com/badge.svg?badge_key=SUxNQjBkNlBCNERWdUVQMTc4TndHVW1rSWVuT2Mzd0tQV0NJVldrSkZJaz0tLSs0OGtLZmZyTC9mMTVuTjBNWUdxcVE9PQ==--38e7a0d2fc60ce4bc2c518e8c1d4b52ad506b1ef)](https://app-automate.browserstack.com/public-build/SUxNQjBkNlBCNERWdUVQMTc4TndHVW1rSWVuT2Mzd0tQV0NJVldrSkZJaz0tLSs0OGtLZmZyTC9mMTVuTjBNWUdxcVE9PQ==--38e7a0d2fc60ce4bc2c518e8c1d4b52ad506b1ef)
 
 This repo provides details on how to upload and download files from BrowserStack remote terminals.
 
