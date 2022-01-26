@@ -11,17 +11,23 @@ This repo provides details on how to upload and download files from BrowserStack
 ## File Upload
 
 ### Desktop browsers
-- Run `mvn -P file-upload-desktop-single test`, to run a single tests to upload a file on a desktop browser.
-- Run `mvn -P file-upload-desktop-parallel test`, to run parallel tests to upload a file on desktop browsers.
+- Run a single tests to upload a file on a desktop browser.
+  ```
+  mvn -P file-upload-desktop-single test
+  ```
+- Run parallel tests to upload a file on desktop browsers.
+  ```
+  mvn -P file-upload-desktop-parallel test
+  ```
 
 ### Mobile browsers
 - Run a single tests to upload a file on a mobile browser.
   ```
-  mvn -P file-upload-mobile-single test
+  mvn -P file-upload-android-single test
   ```
 - Run parallel tests to upload a file on mobile browsers.
   ```
-  mvn -P file-upload-mobile-parallel test
+  mvn -P file-upload-android-parallel test
   ```
 
 ## File Download
